@@ -24,7 +24,8 @@ function compute()
     document.getElementById("result").innerHTML=result;
 }
 
-function updateRate(newVal){
+function updateRate(newVal)
+{
     document.getElementById("showRate").innerHTML=newVal + '%';
 }
         
